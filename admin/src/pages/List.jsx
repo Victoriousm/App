@@ -63,7 +63,7 @@ const List = ({token}) => {
   return (
     <>
         {React.createElement('span', null, )}
-        <p className='mb-2'>All Products List</p>
+        <p className='mb-2 font-bold text-black text-center'>HELLO ADMIN, VIEW OUR CATALOG FROM HERE</p>
         <div className='flex flex-col gap-2'>
           {/* list table title */}
 

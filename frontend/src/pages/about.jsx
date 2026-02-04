@@ -11,7 +11,7 @@ const about = () => {
       <div className='text-2xl text-center pt-8 border-t'>
         <Title text1={'ABOUT'} text2={'US'}/>
         <div className='my-10 flex flex-col md:flex-row gap-16 '>
-          <img className='w-full md:max-w-[450px] h-85' src={assets.about_img} alt="" />
+          <img className='w-full md:max-w-[450px] h-85' src={assets.hero_img} alt="" />
           <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600 '>
              <p>In the vibrant heart of Accra, a visionary designer named Victorious  Mukadi founded Mukadi Styles, a fashion house that celebrates the rich tapestry of African heritage. Inspired by her grandmother's colorful kente cloth and the rhythmic beats of traditional drumming, Amina sought to blend contemporary designs with age-old craftsmanship. Each collection tells a story, weaving together threads of culture, identity, and resilience.</p>
              <b className='text-gray-800'>Our Mission</b>

@@ -19,8 +19,10 @@ import cross_icon from './cross_icon.png'
 import airtel from './airtel.png'
 import fnb from './fnb.png'
 import visa_logo from './visa_logo.png'
+import logo9 from './logo9.png'
 
 export const assets = {
+    logo9,
     logo,
     hero_img,
     cart_icon,

@@ -68,7 +68,8 @@ const Add = ({token}) => {
   return (
     <form onSubmit={onSubmitHandler} className='flex flex-col w-full items-start gap-3'>
         {React.createElement('span', null, )}
-        <div>
+        <h2 className="font-bold text-black text-center">HELLO ADMIN,ADD YOUR PRODUCTS FROM</h2>
+        <div >
             <p className='mb-2'>Upload Image</p>
             <div className='flex gap-5'>
                 <label htmlFor="image1">

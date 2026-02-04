@@ -53,7 +53,7 @@ const Orders = ({ token }) => {
   return (
     <div>
       {React.createElement("span", null)}
-      <h2>Orders Page</h2>
+    <h2 className="font-bold text-black text-center">HELLO ADMIN WELCOME TO YOUR ORDERS PAGE</h2>
       <div>
         {orders.map((order, index) => (
           <div className="bg-slate-200 grid grid-cols-1 sm:grid-cols-[0.5fr_2fr_1fr] lg:grid-cols-[0.5fr_2fr_1fr_1fr_1fr] gap-3 items-start border-2 border-gray-300 p-5 md:p-8 my-3 md:my-4 text-xs sm:text-sm text-gray-700" key={index}>
