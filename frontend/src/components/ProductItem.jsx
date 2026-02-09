@@ -1,28 +1,26 @@
 /* eslint-disable react/prop-types */
-// eslint-disable-next-line no-unused-vars
 import React, { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { Link } from 'react-router-dom'
 
 const ProductItem = ({id,image,name,price}) => {
   const {currency} = useContext(ShopContext)
-  
+
   return (
     <Link 
-      className="text-gray-700 cursor-pointer block max-w-xs mx-auto sm:max-w-sm md:max-w-md" 
+      className="text-gray-700 cursor-pointer block w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2" 
       to={`/product/${id}`}
     >
-      <div className="overflow-hidden flex justify-center">
+      <div className="overflow-hidden rounded-lg">
         <img 
-          className="hover:scale-110 transition ease-in-out 
-                     h-40 w-40 object-cover rounded-full 
-                     sm:h-60 sm:w-60 md:h-80 md:w-full" 
+          className="hover:scale-105 transition ease-in-out 
+                     w-full h-auto object-cover" 
           src={image[0]} 
           alt={name} 
         />
       </div>
-      <p className="pt-3 pb-1 text-sm text-center truncate">{name}</p>
-      <p className="text-sm font-medium text-center">{currency}{price}</p>
+      <p className="pt-2 text-sm font-medium truncate">{name}</p>
+      <p className="text-sm font-semibold">{currency}{price}</p>
     </Link>
   )
 }
